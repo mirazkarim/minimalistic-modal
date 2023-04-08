@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    width: 100%;
+    height: 100vh;
+    background: #080c1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .modal{
+    width: 30%;
+    height: fit-content;
+    background: #ffffff;
+    border-radius:5px ;
+    box-shadow: 0 0 12px #333 ;
+    overflow: hidden;
+}
+.center .modal .modal-head{
+    padding: 10px 15px;
+    background: #ffd000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center .modal .modal-head h2{
+    font-size: 30px;
+}
+.center .modal .modal-head i{
+    font-size: 22px;
+    cursor: pointer;
+}
+.center .modal .modal-head i:hover{
+    color: #ffffff;
+}
+
+.center .modal .modal-body{
+    background: #000;
+    color: #ffd000;
+    padding: 20px 30px;
+}
+.center .modal .modal-body i{
+    font-size: 50px;
+    padding: 10px;
+    border: 4px solid #ffd000;
+    border-radius: 50%;
+    margin: 0 37%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.center .modal .modal-body p{
+    font-size: 20px;
+    /* margin: 50px 0; */
+}
+.center .modal .modal-footer {
+    background: #ffd000;
+    padding: 10px;
+}
+.center .modal .modal-footer .btn{
+    background: #000;
+    color: #ffd000;
+    border: 1px solid #000;
+    padding: 5px 20px;
+    border-radius: 40px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+.center .modal .modal-footer .btn:hover{
+    background: #ffffff;
+    color: #000;
+}
+
+@media screen and (max-width:1238px) {
+    .center .modal .modal-footer .btn{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .center .modal .modal-footer .btn{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:1153px) {
+    .center .modal-body p{
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 230px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .center .modal{
+        width: 50%;
+    }
+    .center .modal-body p{
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 430px;
+    }
+}
+@media screen and (max-width:1017px) {
+    .center .modal{
+        width: 50%;
+    }
+    .center .modal-body p{
+        font-size: 15px;
+        margin-left: 12px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 420px;
+    }
+}
+@media screen and (max-width:997px) {
+    .center .modal{
+        width: 50%;
+    }
+
+    .center .modal-body p{
+        font-size: 12px;
+        margin-left: 19px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:947px) {
+    .center .modal{
+        width: 50%;
+    }
+    .center .modal-body p{
+        font-size: 12px;
+        margin-left: 19px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 380px;
+    }
+}
+@media screen and (max-width:767px) {
+    .center .modal{
+        width: 50%;
+    }
+    .center .modal-body p{
+        font-size: 12px;
+        margin-left: 19px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:600px) {
+    .center .modal{
+        width: 50%;
+    }
+    .center .modal-body p{
+        font-size: 12px;
+        margin-left: 19px;
+    }
+    .center .modal .modal-footer .btn{
+        margin-left: 200px;
+    }
+}
